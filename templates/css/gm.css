@@ -1,0 +1,85 @@
+/*
+ *
+ * @description : Holds the complete CSS to the GraceMedia Intergration
+ * @author : Curtis Crewe
+ * @company : GraceMedia LTD
+ *
+ */
+
+	.banner {
+		width: 1064px;
+		height: 184px;
+		position: relative;
+		background-color: #f3f3f3;
+		padding: 15px;
+		border: solid 1px #b6b6b6;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	
+	input#username {
+		background:none repeat scroll 0 0 #FBFBFB;
+		border:1px solid #E5E5E5;
+		padding:6px;
+		font-size:14px;
+		width:350px;
+	}
+	
+	.add {
+		margin-bottom:15px;
+		text-align: center; 
+	}
+	
+	.gm-button {
+  		display: inline-block;
+  		outline: none;
+  		cursor: pointer;
+  		text-align: center;
+  		text-decoration: none;
+  		font: 14px / 100% Arial, Helvetica, sans-serif;
+  		padding: 0.5em 1em 0.55em;
+  		text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  		-webkit-border-radius: 0.5em;
+  		-moz-border-radius: 0.5em;
+  		border-radius: 0.5em;
+  		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  		-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	.gm-button:hover {
+  		text-decoration: none;
+	}
+
+	.gm-button:active {
+  		position: relative;
+  		top: 1px;
+	}
+	
+	.blue { /* Blue */
+  		color: #d9eef7;
+  		border: solid 1px #0076a3;
+  		background: #0095cd;
+  		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+  		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+	}
+
+	.blue:hover {
+  		background: #007ead;
+  		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+  		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+	}
+
+	.blue:active {
+  		color: #80bed6;
+  		background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+  		background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+	}
+	
+	.no-rows td {
+		font: 13px / 100% Arial, Helvetica, sans-serif;
+		text-align: center; 
+	}
